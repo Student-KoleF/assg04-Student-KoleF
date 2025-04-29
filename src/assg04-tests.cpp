@@ -54,7 +54,7 @@ TEST_CASE("Setup 1: Initial tests of loading and converting page file streams", 
 /**
  * @brief Task 1: Implement basic PagingSystem accessor methods
  */
-#undef task1_1
+#define task1_1
 #ifdef task1_1
 TEST_CASE("Task 1: implement getMemorySize() accessor method", "[task1]")
 {
